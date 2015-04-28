@@ -15,7 +15,12 @@ public class MainActivity extends Activity {
         Asystask task = new Asystask();
         task.execute();
     }
+
     public void imageLoad(View view){
         startActivity(new Intent(this, ImageTest.class));
+    }
+
+    public void progressBarLoad(View view) {
+        startActivity(new Intent(this, MyProgressBarTest.class));
     }
 }
